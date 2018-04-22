@@ -1,0 +1,62 @@
+ @media (max-width: 400px) {
+     #sidebar {
+         width: 80%;
+     }
+ }
+@media (max-width: 500px) {
+    .snackbar {
+        border-radius: 0;
+    }
+
+    .popup-container {
+        width: 100%;
+        max-width: calc(100% - 10px);
+        max-height: calc(100% - 10px);
+    }
+    #popups, #loginLayer {
+        padding: 0;
+    }
+    .avatar {
+        width: 40px;
+    }
+}
+
+@media (min-width: 1240px) {
+    #sidebar:not(.sidebar-shown) {
+        box-shadow: none;
+        width: 64px;
+        z-index: 2;
+        border-right: solid 1px #dadada;
+        transform: translateX(0);
+    }
+
+    #sidebar:not(.sidebar-shown) #sidebar-header {
+        opacity: 0;
+        height: 64px;
+    }
+
+    #sidebar:not(.sidebar-shown) #sidebar-header * {
+        opacity: 0;
+        width: 0;
+        height: 0;
+        display: none;
+    }
+
+    #sidebar:not(.sidebar-shown) .sidebar-item span {
+        opacity: 0;
+        font-size: 0;
+        line-height: 0;
+        position: absolute;
+        display: inline-block;
+    }
+
+    #sidebar:not(.sidebar-shown) .sidebar-item icon {
+        display: inline-block;
+    }
+
+    .sidebar-item {
+        box-sizing: border-box;
+        height: 54px;
+    }
+    
+}

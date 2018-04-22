@@ -1,0 +1,39 @@
+CACHE MANIFEST
+# Версия 1
+
+CACHE:
+style.css
+/design/img/favicon.ico
+mobile.css
+res/fonts/fonts.css
+common.js
+engines.js
+connect.js
+ui_elements.js
+ui.js
+events.js
+auth.js
+settings.js
+linkThinker.js
+dialogs.js
+language.js
+friends.js
+im.js
+profile.js
+player/player.js
+offline.js
+https://fonts.gstatic.com/s/roboto/v18/RxZJdnzeo3R5zSexge8UUVtXRa8TVwTICgirnJhmVJw.woff2
+/design/img/no_obkl.jpg
+/design/img/noavatar.png 
+https://fonts.gstatic.com/s/roboto/v18/oHi30kwQWvpCWqAhzHcCSBJtnKITppOI_IvcXXDNrsc.woff2
+ru.json
+ua.json
+https://fonts.googleapis.com/css?family=Roboto:400,500&subset=cyrillic
+https://fonts.googleapis.com/css?family=IM+Fell+English:400,400italic|Product+Sans
+
+NETWORK:
+/api/*
+
+FALLBACK:
+ /files/avatars/*.png /design/img/noavatar.png
+ /files/avatars/*.jpg /design/img/noavatar.png

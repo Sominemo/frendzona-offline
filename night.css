@@ -1,0 +1,180 @@
+body {
+    background: #3a3a3a;
+    color: white;
+}
+
+header {
+    background: #000;
+    box-shadow: 10px 0 #000, 4px 1px 17px rgba(0, 0, 0, .3);
+}
+
+.section {
+    color: white;
+}
+
+.card {
+    background: #424242;
+    color: white;
+}
+
+.card .card-item {
+    color: white;
+}
+
+.card .card-item:active {
+    background: #363636;
+}
+
+#sidebar {
+    background: #242424;
+}
+
+.sidebar-item {
+    color: #b4b4b4;
+}
+
+.sidebar-item:active,
+.sidebar-item.selected {
+    color: white;
+}
+
+.popup-container {
+    background: #1d1d1d;
+}
+
+.settings_block+.settings_block {
+    border-top: 1px solid #3c3c3c;
+}
+
+.switch_checkbox[type="checkbox"]:checked+label:before {
+    background: #85a6a2;
+}
+
+.button {
+    background-color: #999999;
+    color: #000;
+}
+
+.button.light {
+    background: #2a2a2a;
+    color: #868686;
+}
+
+.button:active {
+    background: #8a8a8a;
+}
+
+.button.light:active {
+    background: #313131;
+}
+
+.messages-bar {
+    background: #2a2a2a;
+    border: solid 1px #282828;
+}
+
+.messages-bar #messages-input {
+    background: transparent;
+    color: white;
+}
+
+.messages-bar #messages-send-button.disabled:not(.attach) icon {
+    background: transparent !important;
+    color: grey;
+}
+
+.actions_box {
+    background: #252525;
+}
+
+.message-container .message-text {
+    background: #2a2a2a;
+}
+
+.message-container.out .message-text {
+    background: #5a5a5a;
+}
+
+.message-container.in .message-text:hover {
+    box-shadow: 0 0 0 2px #565656;
+}
+
+.message-container.in .message-text:active {
+    box-shadow: 0 0 0 2px #888888;
+}
+
+.message-container.out .message-text:hover {
+    background-color: #636363;
+}
+
+.message-container.out .message-text:active, .message-container.out .message-text.focus {
+    background-color: #777777;
+}
+
+
+#loginLayer {
+    background: #0b0b0b;
+}
+
+#loginLayer .popup-container {
+    background: transparent;
+}
+
+#loginButton {
+    color: black;
+}
+
+.button:disabled {
+    background: #343434;
+    border: solid 1px #3f3f3f;
+}
+
+.profile-status {
+    background: #424242;
+    border: solid 1px #717171;
+}
+
+.profile-status:before {
+    border-color: transparent transparent #717171 transparent;
+}
+
+.profile-status:after {
+    border-color: transparent transparent #424242 transparent;
+}
+
+#sidebar-header {
+color: white;
+background: transparent !important;
+text-shadow: 0;
+}
+
+.sidebar-item:active, .sidebar-item.selected {
+    background: rgba(0, 0, 0, 0.30);
+}
+
+#sidebar-head-user-info {
+    filter: brightness(0.7);
+}
+
+#friends_list:empty, #dialogs_list:empty, .messages-box:empty {
+    filter: brightness(0.5)
+}
+
+.big-textarea {
+    color: white;
+}
+
+.out .message-text:after {
+    background-color: #767676;
+}
+
+@media (min-width: 1240px) {
+#sidebar:not(.sidebar-shown) {
+    border-right: solid 1px #313131;
+}
+}
+
+#uwpFakeTopLine {
+    background: black;
+    box-shadow: 10px 0 #000000;
+}

@@ -1,0 +1,9 @@
+AddType text/cache-manifest .manifest
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType text/cache-manifest "access plus 0 seconds"
+</IfModule>
+
+ RewriteEngine On
+ RewriteCond %{HTTPS} !=on
+ RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
