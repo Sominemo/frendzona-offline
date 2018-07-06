@@ -45,7 +45,7 @@ var auth = {
         }, this);
         var loginLayer = document.createElement('div');
         loginLayer.id = 'loginLayer';
-        loginLayer.innerHTML = '<div class="popup-container"><div class="contents"><div class="site_auth_name">FrendZona</div><input id="Authlogin" placeholder="Email" class="text"><br><input id="AuthPassword" type="password" placeholder="Пароль" class="text"><br>'+(!app.uwp_mode ? '<button id="loginButton"  data-hint="login" data-hint-translate="1"><icon data-hint-child="1">arrow_forward</icon></button>' : '<button id="loginButton" class="button">'+_('login')+'</button>')+'</div></div>';
+        loginLayer.innerHTML = '<div class="popup-container"><div class="contents"><div class="site_auth_name">'+app.site_name+'</div><input id="Authlogin" placeholder="Email" class="text"><br><input id="AuthPassword" type="password" placeholder="Пароль" class="text"><br>'+(!app.uwp_mode ? '<button id="loginButton"  data-hint="login" data-hint-translate="1"><icon data-hint-child="1">arrow_forward</icon></button>' : '<button id="loginButton" class="button">'+_('login')+'</button>')+'</div></div>';
         let body = document.body;
         body.appendChild(loginLayer);
         document.getElementById('loginButton').onclick = auth.login;
