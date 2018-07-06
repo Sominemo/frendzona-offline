@@ -1,9 +1,3 @@
-<?
-function rDate($a) {
-  //return '?'.filemtime('/home/admin/web/frendzona.info/public_html/offline/'.$a);
-  return '';
-}
-?>
   <!DOCTYPE html>
   <html lang="ru">
 
@@ -14,35 +8,29 @@ function rDate($a) {
     <link rel="manifest" href="/manifest.webmanifest">
     <link rel="shortcut icon" href="//frendzona.info/design/img/favicon.ico">
     <meta name="theme-color" content="#34BFB0">
-    <link rel="stylesheet" href="style.css<?=rDate('style.css')?>" async>
-    <link rel="stylesheet" href="mobile.css<?=rDate('mobile.css')?>" async>
-    <link rel="stylesheet" href="res/fonts/fonts.css<?=rDate('res/fonts/fonts.css')?>" async>
-    <script src="debug.js<?=rDate('debug.js')?>"></script>
-    <script src="common.js<?=rDate('common.js')?>"></script>
-    <script src="engines.js<?=rDate('engines.js')?>"></script>
-    <script src="connect.js<?=rDate('connect.js')?>"></script>
-    <script src="ui_elements.js<?=rDate('ui_elements.js')?>"></script>
-    <script src="events.js<?=rDate('events.js')?>"></script>
-    <script src="auth.js<?=rDate('auth.js')?>"></script>
-    <script src="settings.js<?=rDate('settings.js')?>"></script>
-    <script src="linkThinker.js<?=rDate('linkThinker.js')?>"></script>
-    <script src="ui.js<?=rDate('ui.js')?>"></script>
-    <script src="dialogs.js<?=rDate('dialogs.js')?>"></script>
-    <script src="language.js<?=rDate('language.js')?>"></script>
-    <script src="friends.js<?=rDate('friends.js')?>"></script>
-    <script src="im.js<?=rDate('im.js')?>"></script>
-    <script src="profile.js<?=rDate('profile.js')?>"></script>
-    <script src="player/player.js<?=rDate('player/player.js')?>"></script>
-    <script src="report.js<?=rDate('report.js')?>"></script>
-    <link rel="stylesheet" href="player/player.css<?=rDate('player/player.css')?>" disabled>
-    <script src="offline.js<?=rDate('offline.js')?>"></script>
-    <script src="updater.js<?=rDate('updater.js')?>"></script>
-    <?
-  if (isset($_GET['uwp']) && isset($_GET['titlebar-height']) && is_numeric($_GET['titlebar-height'])) {
-    echo '<script>app.uwpBarHeight = '.$_GET['titlebar-height'].';</script>';
-  }
-    ?>
-    <?=(isset($_GET['uwp']) && $_GET['uwp'] == 1 ? '<link rel="stylesheet" href="uwp.css'.rDate('uwp.css').'"><script src="uwp.js'.rDate('uwp.js').'"></script>' : '');?>
+    <link rel="stylesheet" href="style.css" async>
+    <link rel="stylesheet" href="mobile.css" async>
+    <link rel="stylesheet" href="res/fonts/fonts.css" async>
+    <script src="debug.js"></script>
+    <script src="common.js"></script>
+    <script src="engines.js"></script>
+    <script src="connect.js"></script>
+    <script src="ui_elements.js"></script>
+    <script src="events.js"></script>
+    <script src="auth.js"></script>
+    <script src="settings.js"></script>
+    <script src="linkThinker.js"></script>
+    <script src="ui.js"></script>
+    <script src="dialogs.js"></script>
+    <script src="language.js"></script>
+    <script src="friends.js"></script>
+    <script src="im.js"></script>
+    <script src="profile.js"></script>
+    <script src="player/player.js"></script>
+    <script src="report.js"></script>
+    <link rel="stylesheet" href="player/player.css" disabled>
+    <script src="offline.js"></script>
+    <script src="updater.js"></script>
     <title>FrendZona</title>
   </head>
 
