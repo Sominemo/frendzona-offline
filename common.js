@@ -31,7 +31,7 @@ var buffer = {};
 
 var app = {
     domain: document.location.protocol + '//' + location.host + '/',
-    site_name: "FrendZona",
+    site_name: "TheName",
     version: 0.2,
     build: 8,
     show_header: true,
