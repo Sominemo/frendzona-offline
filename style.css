@@ -196,7 +196,7 @@ nav {
 }
 
 #sidebar-head-avatar {
-    background: url(https://frendzona.info/design/img/noavatar.png);
+    background: url(/design/img/noavatar.png);
     height: 50px;
     width: 50px;
     background-size: cover;
@@ -556,7 +556,7 @@ body:not(.UWPMode) #loginButton {
     width: 50px;
     height: 50px;
     background-color: #dedede;
-    background-image: url('https://frendzona.info/design/img/noavatar.png');
+    background-image: url('/design/img/noavatar.png');
     background-size: 100% 100%;
     -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;
 }
