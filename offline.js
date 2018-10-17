@@ -124,7 +124,7 @@ var offlineFeatures = {
 
 install: function() {
     if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('../sw.js', {scope: '/'}).then(function(reg) {
+    navigator.serviceWorker.register('sw.js', {scope: '/frendzona-offline'}).then(function(reg) {
       debug.log('SW Registration Successful - ' + reg.scope, 'sw');
     }).catch(function(error) {
       debug.log('[sw.js]: SW Registration Failed - ' + error, 'sw');
