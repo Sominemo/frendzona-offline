@@ -3,7 +3,7 @@ var CACHE_NAME = 'FZ::Offline';
 
 var cacheUrls = [
   '/frendzona-offline',
-  '/frendzona-offline/index.php',
+  '/frendzona-offline/index.html',
   '/frendzona-offline/style.css',
   '/frendzona-offline/auth.js',
   '/frendzona-offline/common.js',
