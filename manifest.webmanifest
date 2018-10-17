@@ -3,22 +3,22 @@
   "name": "FrendZona",  
   "icons": [  
     {  
-      "src": "/images/192.png",  
+      "src": "/frendzona-offline/images/192.png",  
       "sizes": "192x192",  
       "type": "image/png"  
     },  
     {  
-      "src": "/images/256.png",  
+      "src": "/frendzona-offline/images/256.png",  
       "sizes": "256x256",  
       "type": "image/png"  
     },  
     {  
-      "src": "/images/384.png",  
+      "src": "/frendzona-offline/images/384.png",  
       "sizes": "384x384",  
       "type": "image/png"  
     },  
     {  
-      "src": "/images/512.png",  
+      "src": "/frendzona-offline/images/512.png",  
       "sizes": "512x512",  
       "type": "image/png"  
     }
@@ -27,7 +27,7 @@
   "theme_color": "#34BFB0",
   "display": "standalone",  
   "orientation": "any",
-  "start_url": "/offline",
+  "start_url": "/frendzona-offline",
   "related_applications": [
     {
     "platform": "play",
